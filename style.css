@@ -1,0 +1,33 @@
+.heading{
+    font-size: 23px;
+    margin: 0px;
+    width: 100%;
+}
+.note{
+    font-size: 15px;
+    color: black;
+}
+canvas{
+    border:5px solid lightcoral;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 38px seagreen;}
+    to{box-shadow: 1px 1px 3px palegreen;}
+}
+.copy_right_footer{
+    position: fixed;
+    color: black;
+    background-color: antiquewhite;
+    width:100%;
+    bottom:0;
+    line-height: 3;
+    text-align: center;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
